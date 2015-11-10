@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    title=indexPage
+    link(rel="stylesheet" href="style.css")
+    script(text="text/javascript" src="jquery-2.1.4.min.js")
+    script(text="text/javascript" src="main.js")
+  body
+    h1 Markdown Converter
+    .container
+      button(class="converter") Convert Your Markdown!
+      .input
+        h2 Input Your Markdown
+        textarea
+      .output
+        h2 Rendered HTML
+        iframe(class="render")

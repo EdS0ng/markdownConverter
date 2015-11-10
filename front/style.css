@@ -1,0 +1,29 @@
+textarea{
+  width: 30vw;
+  height: 32vw;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.converter{
+  position: absolute;
+  left: 45%;
+}
+
+.render{
+  width: 30vw;
+  height: 32vw;
+}
+.input, .output{
+  display: inline-block;
+  margin-top:4vw;
+}
+
+.input{
+  margin-left: 15vw;
+}
+.output{
+  margin-left: 10vw;
+}
